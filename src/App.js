@@ -1,15 +1,15 @@
-import './App.css';
-import CocktailPage from './pages/CocktailPage/CocktailPage';
-import MyNav from './components/MyNav/MyNav';
+import "./App.css";
+import CocktailPage from "./pages/CocktailPage/CocktailPage";
+import MyNav from "./components/MyNav/MyNav";
+import SearchPage from "./pages/SearchPage/SearchPage";
 
 function App() {
   return (
     <>
-      <CocktailPage />
-      <MyNav/>
+      <SearchPage />
+      <MyNav />
     </>
   );
-  
 }
 
 export default App;
