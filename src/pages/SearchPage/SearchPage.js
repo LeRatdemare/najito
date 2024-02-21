@@ -4,7 +4,7 @@ import CocktailComponent from "../../components/CocktailComponent/CocktailCompon
 
 export default function SearchPage() {
   const [cocktailName, setCocktailName] = useState("margarita");
-  const [cocktails, setCocktails] = useState();
+  const [cocktails, setCocktails] = useState([]);
   useEffect(() => {
     cocktailService
       .searchCocktailsByName(cocktailName)
